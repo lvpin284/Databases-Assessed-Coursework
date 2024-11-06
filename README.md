@@ -30,7 +30,6 @@ s_id VARCHAR(4),
 c_id VARCHAR(3), 
 PRIMARY KEY (s_id, c_id ) 
 ); 
-Continues on next page… 
 
 e) A single text file as in (d) above, but including foreign keys. 
 CREATE TABLE give_course( 
