@@ -4,7 +4,7 @@ This textual backup should consist of SQL statements that will recreate the cont
 original database by using the text files your program produces as input to SQLite. 
 Your program must NOT use the system schema tables found in SQLite; any access to schema information must use the appropriate JDBC methods. The JDBC documentation is linked from the course Moodle page, but another good starting place to find out how to access metadata via JDBC is to google “JDBC metadata”. 
 
-**Milestones **
+**Milestones**
 
 a) A single text file containing all the INSERT..INTO statements required. 
 INSERT INTO projects VALUES( COMIC, COMIC, ESPRIT, 100000 ); 
